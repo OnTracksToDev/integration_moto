@@ -1,0 +1,57 @@
+
+.test{
+    background-image: linear-gradient(165deg,white 60%,50%, black 100%);
+}
+.logo{
+  width: 85%;
+}
+@media screen and (min-width: 576px) {
+  .test {
+    background-image: linear-gradient(163deg, white 60%,50%, black 100%);
+  }
+  .logo{
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .test {
+      background-image: linear-gradient(140deg, white 50%,50%, black 100%);
+    }
+    .logo{
+      width: 50%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .logo{
+      width: 35%;}
+    }
+    header{
+      background-color: black;
+    }
+
+  span {
+    color: #FDBE58;
+  }
+  .btn-orange{
+    background-color:#FDBE58;
+    color: white;
+  }
+  .btn-orange:hover{
+    background-color: #bd8d40;
+    color: white;
+
+  }
+  .card-title{
+    border-bottom: 2px solid #FDBE58;
+    color: #FDBE58;
+    
+  }
+  body{
+    font-family: 'Roboto Slab', serif;
+  background-color: #333333;  }
+
+  footer{
+    border: 1px solid black;
+    box-shadow: rgb(34, 34, 34) 5px 5px 5px 5px
+  }
